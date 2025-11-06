@@ -1,0 +1,21 @@
+body {
+    color: red;
+    border: 1px solid blue;
+}
+
+p {
+    color: blue;
+}
+p {
+    color: red;
+}
+
+/* Se um seletor for mais específico que outro a regra mais específica será aplicada (tera precedência sobre regras mais gerais)*/
+
+* {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}

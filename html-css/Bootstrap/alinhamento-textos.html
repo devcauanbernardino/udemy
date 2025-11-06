@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Alinhamento de textos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body style="margin-bottom: 200px; padding: 16px;">
+
+    <!-- Parágrafo Justificado -->
+    <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatum harum nisi consequatur consequuntur iure provident placeat, eos velit repellat quis quam aliquam, fugiat, quaerat quidem odio accusantium quasi nulla.</p>
+
+    <!-- O texto justificado saiu, agora é necessário fazer pelo css normal -->
+
+    <br>
+    <br>
+
+    <!-- Alinhamento responsivo
+        class text (tela) (alinhamento)
+        tela: sm, md, lg, xl
+        alinhamento: left, center, right
+        -->
+    <p class="text-sm-end">tela &gt; = 576px</p>
+    <p class="text-md-end">tela &gt; = 768px</p>
+    <p class="text-lg-end">tela &gt; = 992px</p>
+    <p class="text-xl-end">tela &gt; = 1200px</p>
+
+    <br>
+    <br>
+
+    <!-- Elemento Block para Inline -->
+    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+    <p class="bg-success d-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatem, repellendus ut dolorum dolorem est, rerum consequuntur tempora quibusdam nam doloribus expedita voluptatum voluptate nulla odio impedit velit, possimus et.</p>
+
+    <br>
+    <br>
+
+    <!-- Elemento inline para block -->
+    <span class="d-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit</span>
+    <span class="d-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit 2</span>
+
+    <br>
+    <br>
+
+    <!-- Elemnto inline-block -->
+     <div class="bg-warning">
+         <h3 class="d-lg-inline-block">lorem ispum</h3>
+         <h3 class="d-inline-block">lorem ispum</h3>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

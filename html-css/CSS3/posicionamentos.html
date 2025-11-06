@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static, relative, absolute e fixed)</title>
+    <style>
+        body {
+            background-color: #007fc7;
+        }
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: auto;
+            padding: 10px;
+        }
+        h1 {
+            
+        }
+        p {
+           width: 300px;
+        }
+        .fixed {
+            position: fixed;
+            background-color: #f2f2f2;
+            border: 1px solid red;
+            top: 0px;
+            left: 0px ;
+        }
+        .absolute {
+            position: absolute;
+            background-color: #f2f2f2;
+            border: 1px solid red;
+            top: 0px;
+        }
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            /*TOP, RIGHT, BOTTOM, LEFT*/
+            top: 20px;
+            left: 80px;
+            /* POSIÇÃO RELATIVE É POSIÇÃO EM RELAÇÃO A POSIÇÃO ORIGINAL */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Posicionamentos</h1>
+        <p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, adipisci ut labore quo impedit accusantium saepe est qui itaque exercitationem vitae, consectetur tempora facilis commodi. Voluptatum fugiat omnis eum eligendi?</p>
+        <p class="fixed">P2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo totam quam praesentium, ea eligendi non tempore ipsa incidunt eveniet, mpedit corporis, ipsum distinctio esse dolorem facere soluta cum ad qui!</p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati aut impedit quidem fuga. Qui iste praesentium, voluptatibus dolore illo ipsum voluptatum odit in! Laboriosam possimus esse labore commodi corporis!</p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati aut impedit quidem fuga. Qui iste praesentium, voluptatibus dolore illo ipsum voluptatum odit in! Laboriosam possimus esse labore commodi corporis!</p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati aut impedit quidem fuga. Qui iste praesentium, voluptatibus dolore illo ipsum voluptatum odit in! Laboriosam possimus esse labore commodi corporis!</p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati aut impedit quidem fuga. Qui iste praesentium, voluptatibus dolore illo ipsum voluptatum odit in! Laboriosam possimus esse labore commodi corporis!</p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati aut impedit quidem fuga. Qui iste praesentium, voluptatibus dolore illo ipsum voluptatum odit in! Laboriosam possimus esse labore commodi corporis!</p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati aut impedit quidem fuga. Qui iste praesentium, voluptatibus dolore illo ipsum voluptatum odit in! Laboriosam possimus esse labore commodi corporis!</p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati aut impedit quidem fuga. Qui iste praesentium, voluptatibus dolore illo ipsum voluptatum odit in! Laboriosam possimus esse labore commodi corporis!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        let num1 = prompt("Digite o primeiro número: ")
+        let operacao = prompt("Digite a operação (+, -): ")
+        let num2 = prompt("Digite o segundo número: ")
+
+        num1 = parseInt(num1)
+        num2 = parseInt(num2)
+
+
+        function calculo(num1, num2, operacao) {
+            var resultado = 0
+
+            if (operacao === "soma") {
+                resultado = num1 + num2
+            } else if (operacao === "subtração") {
+                resultado = num1 - num2
+            } else {
+                alert("Operação inválida!")
+            }
+            return resultado
+        }
+
+
+        document.write("O resultado é: " + calculo(num1, num2, operacao))
+    </script>
+</body>
+</html>
