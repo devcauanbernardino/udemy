@@ -11,15 +11,22 @@ class ContaBancaria {
         this.limite = 450
     }
 
-    depositar() {
-
+    depositar(valorDeposito) {
+        this.saldo += valorDeposito
     }
 
-    sacar() {
-
+    sacar(valorSaque) {
+        this.saldo -= valorSaque
     }
 
     consultarSaldo() {
-        
+        return this.saldo
     }
 }
+
+const x = new ContaBancaria()
+console.log(x.consultarSaldo())
+console.log(x.depositar(60))
+console.log(x.consultarSaldo())
+console.log(x.sacar(50))
+console.log(x.consultarSaldo())
